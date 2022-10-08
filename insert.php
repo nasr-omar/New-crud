@@ -30,16 +30,16 @@ if($result){
 
       <div class="col-12">
         <label for="inputEmail4" class="form-label">Name</label>
-        <input type="text" name="name" class="form-control" id="inputEmail4">
+        <input type="text" required name="name" class="form-control" id="inputEmail4">
       </div>
 
       <div class="col-12">
         <label for="inputAddress" class="form-label">Address</label>
-        <input type="text" name="address" class="form-control" id="inputAddress" >
+        <input type="text" required name="address" class="form-control" id="inputAddress" >
       </div>
       <div class="col-12">
         <label for="inputAddress2" class="form-label">Phone No.</label>
-        <input type="number" name="Phone_number" class="form-control" id="inputAddress2">
+        <input type="number" required name="Phone_number" class="form-control" id="inputAddress2">
       </div>
 
       <div class="col-12">
